@@ -1,6 +1,5 @@
 <head>
   <meta charset="utf-8">
-  <title>Deric Fung - UX Designer in Provo, Utah</title>
 
 </head>
 body {
@@ -36,7 +35,25 @@ h4 {
 image {
   width: 100%
 }
-
+a {
+  color: #ff7f50;
+  text-decoration: none; /* No underlining */
+}
+a:visited { /* visited link */
+  color: #ff7f50;
+}
+a:hover {
+  color: #cc6540;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+a:active { /* selected link */
+  color: #994c30;
+}
+a:hover,
+a:focus {
+  color: #cc6540;
+  text-decoration: underline;
+}
 /*
 Colors used:
 Primary Color (Blue): #07889b;
