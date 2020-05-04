@@ -112,7 +112,9 @@ a:hover, a:focus {
   background-color: #ff7f50;
   color: #ffffff !important;
 }
-
+header {
+  background-color: #ff44c4;
+}
 /*Colors used:Primary Color (Blue): #07889b;
 Secondary Color (Orange): #e37222;
 */
