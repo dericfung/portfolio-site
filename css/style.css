@@ -112,14 +112,19 @@ a:hover, a:focus {
   background-color: #ff7f50;
   color: #ffffff !important;
 }
-header {
-  background-color: #ff44c4;
-  padding: 10px;
-  margin: 10px;
+/* Layout styling */
+.container {
+    padding: 0 15px
+}
+.box {
+  background-color: #66b9bf;
+  margin: 20px;
   padding-top: 10px;
   padding-right: 5px;
   padding-bottom: 15px;
   padding-left: 5px;
+  border-width: 10px;
+  border-bottom: 3px solid #4a4a4a;
 }
 /*Colors used:Primary Color (Blue): #07889b;
 Secondary Color (Orange): #e37222;
