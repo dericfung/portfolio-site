@@ -116,6 +116,13 @@ a:hover, a:focus {
 .container {
     padding: 0 15px
 }
+.nav > ul > li > a {
+  padding: 0 15px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
 .box {
   background-color: #66b9bf;
   margin: 20px;
@@ -125,6 +132,7 @@ a:hover, a:focus {
   padding-left: 5px;
   border-width: 10px;
   border-bottom: 3px solid #4a4a4a;
+  text-align: center;
 }
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
@@ -132,6 +140,15 @@ a:hover, a:focus {
 #hero h1 {
   text-align: center; /* Centers text */
 }
+.logo {
+  max-width: 250px;
+}
+.header {
+  background-color: #ffe4c4;
+  text-align: center; /* Centers text */
+  padding: 10px 0;
+}
+
 /*Colors used:Primary Color (Blue): #07889b;
 Secondary Color (Orange): #e37222;
 */
