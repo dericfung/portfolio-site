@@ -126,6 +126,12 @@ a:hover, a:focus {
   border-width: 10px;
   border-bottom: 3px solid #4a4a4a;
 }
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+#hero h1 {
+  text-align: center; /* Centers text */
+}
 /*Colors used:Primary Color (Blue): #07889b;
 Secondary Color (Orange): #e37222;
 */
