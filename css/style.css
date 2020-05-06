@@ -153,7 +153,9 @@ nav > ul > li > a {
   text-align: center; /* Centers text */
   padding: 10px 0;
 }
-
+#hero {
+  background-color: #ffe4c4;
+}
 /*Colors used:Primary Color (Blue): #07889b;
 Secondary Color (Orange): #e37222;
 */
