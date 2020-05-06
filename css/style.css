@@ -83,7 +83,6 @@ a:hover, a:focus {
 
 .button {
   display: inline-block;
-  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #ff7f50;
   color: #ffffff !important;
   /* needed to override the default link color */
@@ -116,9 +115,15 @@ a:hover, a:focus {
 .container {
     padding: 0 15px
 }
-.nav > ul > li > a {
-  padding: 0 15px;
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
   display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #4a4a4a;
