@@ -156,6 +156,10 @@ nav > ul > li > a {
 #hero {
   background-color: #ffe4c4;
 }
+.footer {
+  text-align: center; /* Centers text */
+  padding: 0 15px
+}
 /*Colors used:Primary Color (Blue): #07889b;
 Secondary Color (Orange): #e37222;
 */
