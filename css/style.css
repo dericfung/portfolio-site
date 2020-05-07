@@ -113,7 +113,9 @@ a:hover, a:focus {
 }
 /* Layout styling */
 .container {
-    padding: 0 15px
+    margin: 20px;
+    padding: 0 15px;
+    
 }
 nav > ul {
   list-style-type: none;
@@ -159,6 +161,7 @@ nav > ul > li > a {
   padding-right: 5px;
   padding-left: 5px;
   border-width: 10px;
+  padding-bottom: 15px;
 }
 .work {
   background-color: #eeaa7b;
