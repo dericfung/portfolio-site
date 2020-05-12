@@ -224,6 +224,11 @@ Large devices (1024px or larger)
       float: right
       margin-top: 4px;
     }
+    .col-lg-5 {
+    width: 65%;
+  }
+    .col-lg-7 {
+    width: 35%;
 }
 /* ==============================
 X-large devices (1440px or larger)
