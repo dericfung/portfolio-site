@@ -285,6 +285,12 @@ X-large devices (1440px or larger)
     #hero span {
   display: block;
     }
+  }
+  .navtoggle li:last-child {
+    display: none;
+  }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
 }
 
 /* ==============================
