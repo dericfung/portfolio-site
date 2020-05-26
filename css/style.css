@@ -15,7 +15,6 @@ Padding: top right bottom left;
 }
 .header {
   background-color: #ffe4c4;
-  text-align: center; /* Centers text */
   padding: 10px 0;
 }
 body {
