@@ -135,6 +135,12 @@ nav > ul > li > a {
   font-weight: 700;
   color: #4a4a4a;
 }
+.navtoggle li:last-child {
+  display: block;
+}
+  .navtoggle li:not(:last-child) {
+    display: none;
+}
 .navtoggle, .navtoggle.responsive {
   position: relative;
 }
@@ -143,9 +149,6 @@ nav > ul > li > a {
   right: 0;
   top: 2px;
   font-size: 20px;
-}
-.navtoggle li:last-child {
-  display: none;
 }
 .navtoggle.responsive li  {
   display: block;
@@ -225,11 +228,11 @@ Media queries for medium devices (640px and larger)
     nav > ul > li {
       display: inline-block;
     }
-    .navtoggle li:last-child {
-      display: block;
-    }
     .navtoggle li:not(:last-child) {
       display: inline-block;
+    }
+    .navtoggle li:last-child {
+      display: none;
     }
     .col-md-6 {
       width: 50%;
@@ -262,6 +265,9 @@ Large devices (1024px or larger)
       float: right
       margin-top: 4px;
     }
+    .navtoggle li:last-child {
+      display: none;
+    }
     .col-lg-5 {
     width: 65%;
   }
@@ -281,6 +287,9 @@ X-large devices (1440px or larger)
       width: auto;
       float: right
       margin-top: 4px;
+    }
+      .navtoggle li:last-child {
+        display: none;
     }
     #hero span {
   display: block;
