@@ -226,8 +226,11 @@ Media queries for medium devices (640px and larger)
     .navtoggle li:not(:last-child) {
       display: inline-block;
     }
-    .navtoggle li:last-child {
-      display: none;
+    .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
     }
     .col-md-6 {
       width: 50%;
