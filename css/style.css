@@ -266,6 +266,9 @@ Large devices (1024px or larger)
       float: right
       margin-top: 4px;
     }
+    .navtoggle li:not(:last-child) {
+      display: inline-block;
+    }
     .navtoggle li:last-child {
       display: none;
     }
@@ -284,17 +287,16 @@ X-large devices (1440px or larger)
       padding: 20px 0 13px;
     }
 
-    nav {
+  nav {
       width: auto;
       float: right
       margin-top: 4px;
-    }
-      .navtoggle li:last-child {
-        display: none;
-    }
-    #hero span {
+  }
+  #hero span {
   display: block;
-    }
+  }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
   }
   .navtoggle li:last-child {
     display: none;
