@@ -138,7 +138,7 @@ nav > ul > li > a {
 .navtoggle li:last-child {
   display: block;
 }
-  .navtoggle li:not(:last-child) {
+.navtoggle li:not(:last-child) {
     display: none;
 }
 .navtoggle, .navtoggle.responsive {
@@ -225,6 +225,9 @@ Media queries for medium devices (640px and larger)
     }
     .navtoggle li:not(:last-child) {
       display: inline-block;
+    }
+    .navtoggle li:last-child {
+      display: none;
     }
     .navtoggle li .icon {
     position: absolute;
