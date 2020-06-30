@@ -165,7 +165,7 @@ nav > ul > li > a {
   padding: 0 0 10px;
 }
 .box {
-  background-color: #66b9bf;
+  background-color: #D5D5D5;
   margin: 20px;
   padding-top: 10px;
   padding-right: 5px;
@@ -180,7 +180,7 @@ nav > ul > li > a {
 }
 
 #hero {
-  background-color: #ffe4c4;
+  background-color: #D5D5D5;
   text-align: center;
   padding-top: 10px;
   padding-right: 5px;
@@ -192,9 +192,9 @@ nav > ul > li > a {
   max-width: 250px;
 }
 .work {
-  background-color: #eeaa7b;
+  background-color: #D5D5D5;
   text-align: center;
-  margin: 20px;
+  margin: 0px;
   padding-top: 10px;
   padding-right: 5px;
   padding-bottom: 15px;
