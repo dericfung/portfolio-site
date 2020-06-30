@@ -180,8 +180,12 @@ nav > ul > li > a {
 }
 
 #hero {
+<<<<<<< Updated upstream
   background-color: #D5D5D5;
   text-align: center;
+=======
+  background-color: ##D5D5D5;
+>>>>>>> Stashed changes
   padding-top: 10px;
   padding-right: 5px;
   padding-left: 5px;
@@ -192,7 +196,11 @@ nav > ul > li > a {
   max-width: 250px;
 }
 .work {
+<<<<<<< Updated upstream
   background-color: #D5D5D5;
+=======
+  background-color: ##D5D5D5;
+>>>>>>> Stashed changes
   text-align: center;
   margin: 0px;
   padding-top: 10px;
